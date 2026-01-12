@@ -15,7 +15,7 @@
 查看ubuntu版本： `lsb_release -a  #我的是：Ubuntu 22.04.5 LTS，jammy`   
 
 ---
-Gazebo 使用的不再是 Gazebo 9 或 11, 而是新一代 Gazebo Ignition： `sudo apt install ros-humble-ros-ign`   
+Gazebo 使用的不再是 Gazebo 9 或 11, 而是新一代 Gazebo Ignition： `sudo apt install ros-humble-ros-ign #在这里不适用，使用的不是ign版本，而是harmonic版本，见02_Reinstall`   
 教程中使用的配置为：  
 |Ubuntu|仿真器|ROS发行版|PX4|
 |:--|:--|:--|:--|
