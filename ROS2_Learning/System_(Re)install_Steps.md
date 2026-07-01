@@ -1,7 +1,7 @@
 # Steps for reinstall system
 Ubuntu 22.04.5 LTS, jammy;   
 ROS2 Version: humble;   
-Gazebo Version: harmonic (Not Gazebo-Classic !!!)
+Gazebo Version: harmonic (Not Gazebo(11)-Classic !!!)
 
 ### Delete previous system.
 * delete the previous system under Window's disk manager.
@@ -16,10 +16,6 @@ Gazebo Version: harmonic (Not Gazebo-Classic !!!)
 ```bash
 sudo apt update
 sudo apt upgrade
-```
-
-```bash
-
 ```
 
 ## Graphic Card Driver.
@@ -94,6 +90,12 @@ sudo apt install python3-colcon-ros
 # soucre ~/.bashrc
 
 ```
+
+## Gazebo Sim (NEW GAZEBO) installation.
+* Visit link: https://gazebosim.org/docs/harmonic/install_ubuntu/
+
+* Ignore if there is WARNING (NO solution yet (for me)): ```libEGL warning: egl: failed to create dri2 screen```.
+
 ---
 
 #### Chinese Language Install.
