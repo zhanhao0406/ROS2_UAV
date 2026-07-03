@@ -51,7 +51,21 @@ prime-select query
 
 * Go settings and check again.
 
-## ROS2 Installation.
+## ROS2 Installation. (Note: Make sure to install PX4 first!!!!, then install ROS2)
+
+<details> 
+ 
+  <summary><mark> If install ROS2 first, there will have a dependences issue later on (don't know how to slove yet): </mark></summary>   
+Issue:   
+The following packages have unmet dependencies:  
+
+libgbm-dev: Depends: libgbm1 (=23.2.1-1 ubuntu3.1-22.04.3) but 23.2.1-1 ubuntu 3.1-22.04.4 is to be installed  
+E: Unable to correct problems, you have held broken packages.
+
+</details>   
+
+---
+
 ```bash
 wget http://fishros.com/install -O fishros && . fishros
 
